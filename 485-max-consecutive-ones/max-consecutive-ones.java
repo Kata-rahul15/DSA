@@ -8,9 +8,9 @@ class Solution {
                 currentCount++;
             }
             else{
-                maxCount = Math.max(maxCount,currentCount);
                 currentCount=0;
             }
+            
          maxCount = Math.max(maxCount,currentCount); 
             
         }
